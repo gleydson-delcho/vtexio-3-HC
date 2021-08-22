@@ -1,0 +1,37 @@
+/**
+* Bloco que recebe os conteúdos do tab-list e do tab-content.
+*/
+
+{
+  "flex-layout.row#home":{
+    "props":{
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "flex-layout.col#all"
+    ]
+  },
+  "flex-layout.col#all":{
+    "props":{
+      "blockClass": "flex-col-all",
+      "width":"85%"
+    },
+    "children": [
+      "tab-layout#home"
+    ]
+  },
+  "tab-layout#home":{
+    "children":[
+      "tab-list#home",
+      "list-context.image-list#demo",
+      "tab-content#home"
+    ]
+  },  
+  "rich-text#home2": {
+    "props": {
+      "text": "AINDA SEM PRODUTOS",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  }
+}

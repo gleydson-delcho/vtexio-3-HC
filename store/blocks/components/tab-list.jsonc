@@ -1,0 +1,53 @@
+/**
+* Neste bloco são listados os items ou botões de filtro na home page.
+*/
+
+{
+    "tab-list#home": {
+        "children": [
+            "tab-list.item#home1",
+            "tab-list.item#home2",
+            "tab-list.item#home3",
+            "tab-list.item#home4",
+            "tab-list.item#home5",
+            "tab-list.item#home6"
+        ]
+    },
+    "tab-list.item#home4": {
+        "props": {
+          "tabId": "promocoes",
+          "label": "Promoções"
+        }
+      },
+      "tab-list.item#home3": {
+        "props": {
+          "tabId": "maravilhas",
+          "label": "7 Maravilhas"
+        }
+      },
+      "tab-list.item#home2": {
+        "props": {
+          "tabId": "corintians",
+          "label": "Corinthians"
+        }
+      },
+      "tab-list.item#home1": {
+        "props": {
+          "tabId": "palmeiras",
+          "label": "Palmeiras",
+          "defaultActiveTab": true
+        }
+      },
+      "tab-list.item#home5": {
+        "props": {
+          "tabId": "signos",
+          "label": "Signos"
+        }
+      },
+      "tab-list.item#home6": {
+        "props": {
+          "tabId": "guerreiros",
+          "label": "Guerreiros"
+        }
+      }
+}
