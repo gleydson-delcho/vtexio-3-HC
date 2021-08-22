@@ -1,0 +1,10 @@
+/** 
+* Este bloco fica responsável por renderizar o component layout da home.
+*/
+{
+  "store.home": { 
+    "blocks": [
+      "flex-layout.row#home"
+    ]
+  }
+}
