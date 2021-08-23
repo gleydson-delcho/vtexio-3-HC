@@ -9,3 +9,14 @@
 :global(.vtex-button) {
 	border: none;
 }
+
+.contaier {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sellingPrice {
+    color: #ff0000;
+}

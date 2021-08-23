@@ -4,7 +4,7 @@
 }
 
 .paginationDot {
-    background: #4EEE94;
+    background: #00FF00;
 }
 
 .slideChildrenContainer {
@@ -13,4 +13,8 @@
 
 .sliderArrows {
     bottom: 0;    
+}
+
+.caretIcon {
+    color: #00FF00;
 }

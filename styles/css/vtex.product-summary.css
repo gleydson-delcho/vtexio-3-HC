@@ -1,3 +1,12 @@
 .imageNormal {
     border-radius: 0.75rem;
 }
+
+.buyButton {
+    text-align: center;
+}
+
+.productBrand {
+    text-align: center;
+    color: #000;
+}
