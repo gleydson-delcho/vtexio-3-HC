@@ -1,0 +1,16 @@
+.imageElement {
+    border-radius: 2rem;
+    max-width: 50rem;
+}
+
+.paginationDot {
+    background: #4EEE94;
+}
+
+.slideChildrenContainer {
+    margin-top: 0.5rem;
+}
+
+.sliderArrows {
+    bottom: 0;    
+}
