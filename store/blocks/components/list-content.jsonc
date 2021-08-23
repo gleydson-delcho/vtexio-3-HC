@@ -30,7 +30,7 @@
         },
         "infinite": true,
         "autoplay":{
-          "timeout": 1200,
+          "timeout": 5000,
           "stopOnHover": true
         }
       }

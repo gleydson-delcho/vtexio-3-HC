@@ -1,0 +1,11 @@
+.searchBarContainer {
+    width: 40rem;
+}
+
+.discountInsideContainer {
+    border-radius: 0 0.75rem 0 0;
+}
+
+:global(.vtex-button) {
+	border: none;
+}
